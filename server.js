@@ -2,9 +2,9 @@ const express = require("express");
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const fullName = "Your Full Name";
-const section = "Your Class Section";
-const quote = "Your Inspirational Quote";
+const fullName = "Dominic I Malpica";
+const section = "BSIT SM 4102";
+const quote = "and ligid an tiil ng shark and kanding";
 
 app.get("/", (req, res) => {
   res.send(`
