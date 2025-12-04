@@ -4,7 +4,7 @@ const PORT = process.env.PORT || 3000;
 
 const fullName = "Dominic I Malpica";
 const section = "BSIT SM 4102";
-const quote = "and ligid an tiil ng shark and kanding";
+const quote = "You are not ready for success if you are afraid to lose.";
 
 app.get("/", (req, res) => {
   res.send(`
